@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt,dd, ul, ol,li, pre,button, fieldset, form,  input, legend,  td, textarea, th{margin: 0;padding: 0;}
+body, button, input, select, textarea {font-family:Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;}
+a{text-decoration: none;}
+ul, ol{list-style: none;}
+body,html{font-size: 62.5%;width: 100%;height: 100%;min-width: 320px;background: #eeeef3;}
+html { -webkit-text-size-adjust: none; }
+i,b{font-style:normal;}
+.clear{clear:both;}
+.fl{float: left;}
+.fr{float: right;}
+.al {text-align:left;}
+.ac {text-align:center;}
+.ar {text-align:right;}
+table {border-collapse: collapse; border-spacing: 0;}
+img { border: 0;vertical-align: middle;}
+label, button {cursor: pointer;}
+.hide, .none {display: none;}
+.clearfix:after {visibility: hidden;clear: both;display: block;content: ".";height: 0;}
+.clearfix {*zoom: 1;}
+.absolute {position: absolute; }
+.relative {position: relative; }
+.fixed{position: fixed; }
+.hidden {overflow: hidden; }
+.inBlock{ display: inline-block; }
+
+/*ึ๗าณ*/
+#home{height:28px;background: #ff5000;width: 92%;padding:8px 4%;left:0;top:0;}
+.h_city{font-size:1.5rem;color:#fff;line-height:28px;}
+.h_city img{width:10px;}
+.h_search{background:#fff url("../images/h_search.png") no-repeat 1rem center;background-size:14px 12px ;margin-left:2.4%;padding-left:33px;border-radius:13px;width:55%; }
+.h_search input{border:none;font-size:1.3rem;height:22px;line-height: 22px;outline: none;width:150px;}
+.h_massage img{width:25px;}
+#kong{height:44px;}
