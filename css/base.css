@@ -24,12 +24,12 @@ label, button {cursor: pointer;}
 .inBlock{ display: inline-block; }
 
 /*ึ๗าณ*/
-header{background: #ff5000;width: 92%;padding:8px 4%;left:0;top:0;}
+header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;}
 #home{height:28px;width: 100%;line-height: 27px;}
 #home li{float: left;}
 #home .h_city{width: 18.8%;font-size:1.5rem;color:#fff;}
 #home .h_city img{width:17px;height: 10px;padding-left:4px;}
-#home .h_search{width: 61.6%;background:#fff url("../images/h_search.png") no-repeat 1rem center;background-size:14px 12px ;padding-left:8%;border-radius:13px;}
+#home .h_search{width: 69.6%;background:#fff url("../images/h_search.png") no-repeat 1rem center;background-size:14px 12px ;padding-left:8%;border-radius:13px;}
 #home .h_search input{border:none;font-size:1.3rem;height:22px;line-height: 22px;outline: none;width:96%;text-indent: 5px;}
 #home .h_massage{width:11.6%;}
 #home .h_massage img{width:25px;float:right;}

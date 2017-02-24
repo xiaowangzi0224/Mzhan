@@ -1,1 +1,23 @@
+/*ึ๗าณ*/
 #banner img{width:100%;display: block;}
+#banner2{background: #fff;border-radius: 0 0 1rem 1rem; }
+#banner2 .bannertop{height:1.5rem;width:100%;background:#fff;border-radius:1rem 1rem 0 0;top:-1.4rem;left:0;z-index: 100; }
+#banner2 ul{text-align: center;padding:0 4% 10px;}
+#banner2 ul li{float:left;width:18%;margin-right:2.5%;}
+#banner2 ul .last{margin-right:0;}
+#banner2 ul li a{display:block;}
+#banner2 ul li a img{width:100%;}
+#banner2 ul li a p{font-size:1.3rem;color:#333;padding:10px 0;}
+
+#banner3{padding:0 4%;background: #fff;height: 30px;line-height:30px;margin: 5px 0;border-radius:4px;}
+#banner3 .bT1{font-size:1.3rem; ;color:#fd1134;}
+#banner3 .bT2{font-size:1.2rem; ;color:#ff5000;}
+#banner3 .bT3{font-size:1.2rem; ;color:#1a1a1a;padding: 0 6px;}
+#banner3 .bT4{font-size:1.2rem; ;color:#1a1a1a;}
+
+#banner4{background: #fff;padding:0 4%;}
+#banner4 .container{padding: 0;}
+#banner4 .bt{height: 33px;line-height: 33px;}
+#banner4 .zy{font-size: 15px;color:#1a1a1a;}
+#banner4 .gd a{color:#ff5000;font-size: 1rem;}
+#banner4 .Cp img{width: 100%;}
