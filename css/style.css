@@ -21,3 +21,26 @@
 #banner4 .zy{font-size: 15px;color:#1a1a1a;}
 #banner4 .gd a{color:#ff5000;font-size: 1rem;}
 #banner4 .Cp img{width: 100%;}
+#banner4 .Cp p{font-size: 1.2rem;color:#1a1a1a;text-align: center;height: 30px;line-height: 30px;}
+#banner4 ul{height: 15px;line-height: 15px;}
+#banner4 ul li{float: left;}
+#banner4 .amount a{
+    position: absolute;
+    color: #666;
+    line-height:15px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+#banner4 .amount input{
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left:15px;
+    text-align: center;
+}
