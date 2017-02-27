@@ -1,7 +1,7 @@
 /*Ö÷Ò³*/
 #banner img{width:100%;display: block;}
 #banner2{background: #fff;border-radius: 0 0 1rem 1rem; }
-#banner2 .bannertop{height:1.5rem;width:100%;background:#fff;border-radius:1rem 1rem 0 0;top:-1.4rem;left:0;z-index: 100; }
+#banner2 .bannertop{height:1.5rem;width:100%;background:#fff;border-radius:1rem 1rem 0 0;top:-1.4rem;left:0;z-index: 99; }
 #banner2 ul{text-align: center;padding:0 4% 10px;}
 #banner2 ul li{float:left;width:18%;margin-right:2.5%;}
 #banner2 ul .last{margin-right:0;}
@@ -20,27 +20,27 @@
 #banner4 .bt{height: 33px;line-height: 33px;}
 #banner4 .zy{font-size: 15px;color:#1a1a1a;}
 #banner4 .gd a{color:#ff5000;font-size: 1rem;}
+#banner4 .Cp{height: 163px;}
 #banner4 .Cp img{width: 100%;}
 #banner4 .Cp p{font-size: 1.2rem;color:#1a1a1a;text-align: center;height: 30px;line-height: 30px;}
 #banner4 ul{height: 15px;line-height: 15px;}
 #banner4 ul li{float: left;}
-#banner4 .amount a{
-    position: absolute;
-    color: #666;
-    line-height:15px;
-    text-align: center;
-    background: #f1f1f1;
-    border: 1px solid #ccc;
-    width: 15px;
-    height: 15px;
-    display: block;
-}
-#banner4 .amount input{
-    width: 20px;
-    height: 15px;
-    line-height: 15px;
-    border: 1px solid #ccc;
-    position: absolute;
-    left:15px;
-    text-align: center;
-}
+#banner4 .amount a{position: absolute;color: #666;line-height:15px;text-align: center;background: #f1f1f1;border: 1px solid #ccc;width: 15px;height: 15px;display: block;}
+#banner4 .amount input{width: 25px;height: 15px;line-height: 15px;border: 1px solid #ccc;position: absolute;left:15px;text-align: center;}
+
+/*×¢²áÒ³Ãæ1*/
+header .l_img{display:inline-block; }
+header .l_img img{width:13px;}
+header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
+#L_menu{background: #fff;margin-top: 10px;padding: 0 4%;}
+#L_menu .container{padding: 0;}
+#L_menu .row{border-bottom: 1px solid #ccc;margin-bottom: 15px;height: 45px;line-height:43px;}
+#L_menu .row input{border: none;outline: none;}
+#L_menu .row label{margin-bottom: 0;font-weight: normal;}
+#L_menu .row .yzm{width: 35%;}
+#L_menu .row .yzm input{width:100%;}
+#L_menu .row .yzs{ width: 15%;border: 1px solid #ccc;line-height:39px;height:39px;text-align: center;  padding: 0; }
+#L_menu .xyb{height:auto;padding: 0 8%;border-bottom: transparent;margin-top: 60px;}
+#L_menu .xyb .btn{outline:none;background: #ff5000;color:#fff;font-size: 18px;font-weight: bold;}
+#L_menu .xyb p{color:#666;text-align: right;height:38px;line-height:38px;}
+#L_menu .xyb p span{color:#00afff;}

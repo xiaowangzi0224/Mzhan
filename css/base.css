@@ -11,9 +11,9 @@ i,b{font-style:normal;}
 .al {text-align:left;}
 .ac {text-align:center;}
 .ar {text-align:right;}
-table {border-collapse: collapse; border-spacing: 0;}
-img { border: 0;vertical-align: middle;}
-label, button {cursor: pointer;}
+table{border-collapse: collapse; border-spacing: 0;}
+img {border: 0;vertical-align: middle;}
+label,button {cursor: pointer;}
 .hide, .none {display: none;}
 .clearfix:after {visibility: hidden;clear: both;display: block;content: ".";height: 0;}
 .clearfix {*zoom: 1;}
@@ -24,7 +24,8 @@ label, button {cursor: pointer;}
 .inBlock{ display: inline-block; }
 
 /*Ö÷Ò³*/
-header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;}
+header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;z-index: 100;}
+header .container{padding: 0;}
 #home{height:28px;width: 100%;line-height: 27px;}
 #home li{float: left;}
 #home .h_city{width: 18.8%;font-size:1.5rem;color:#fff;}
@@ -34,6 +35,16 @@ header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;}
 #home .h_massage{width:11.6%;}
 #home .h_massage img{width:25px;float:right;}
 #kong{height:44px;}
+
+
+/*Î²²¿Çø footer*/
+#kong2{height:50px;}
+footer{z-index:100;width:100%;font-size:0;bottom:0;background: #fff;border-top: 1px solid #e1e1e1;}
+footer a{display:inline-block;padding-top:5px;text-align: center;}
+footer a img{width:25px;}
+footer a .zy{color:#ff5000;}
+footer a span{display:block;color:#ccc;height:18px;line-height:18px;font-size:1rem;}
+footer a span:hover{color:#fa6400;}
 
 
 

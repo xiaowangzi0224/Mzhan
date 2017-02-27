@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/images/Dressing.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/L_zjt.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_Bricklayer.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/h_HOME.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_Oilers.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_Plumber.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_brj.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_carpentry.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/h_cart.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/h_classify.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_electrician.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_jiantou.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/h_my.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_photograph.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_search.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/images/h_xiaoxi.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/images/index.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/images/phone.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/images/wallet.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/images/kanbuq.jpg" charset="UTF-8" />
   </component>
 </project>
