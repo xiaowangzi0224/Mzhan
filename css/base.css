@@ -46,6 +46,11 @@ footer a .zy{color:#ff5000;}
 footer a span{display:block;color:#ccc;height:18px;line-height:18px;font-size:1rem;}
 footer a span:hover{color:#fa6400;}
 
-
-
-
+/*узуж╡©╥ж*/
+.bj_Mask{position: fixed;left: 0; top: 0; z-index: 100; width: 100%;height: 100%; background: url(../images/zhezhao.png) left top;display: none;}
+.bj_Mask .bj_tc{height: 330px;border-radius: 13px;margin: 30% 4%;background: #fff;text-align: center;}
+.bj_Mask .bj_tc .suo{padding-top: 25px;}
+.bj_Mask .bj_tc p{font-size: 19px;color:#333;height: 68px;line-height: 68px;font-weight: bold;}
+.bj_Mask .bj_tc .psd{background: #e6e6e6;height: 48px;border: 1px solid #ccc; margin: 0 7%;}
+.bj_Mask .bj_tc .psd input{width: 100%;height: 46px;line-height: 46px;border: none;outline: none;text-align: center;background: #e6e6e6;font-size: 18px;}
+.bj_Mask .bj_tc .btn2{margin-top: 30px;background: #ff5000;color: #fff;font-size: 1.7rem;letter-spacing: 3px;padding: 6px 20%;}
