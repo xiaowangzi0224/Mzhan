@@ -1,7 +1,7 @@
 /*主页*/
 #banner img{width:100%;display: block;}
-#banner2{background: #fff;border-radius: 0 0 1rem 1rem; }
-#banner2 .bannertop{height:1.5rem;width:100%;background:#fff;border-radius:1rem 1rem 0 0;top:-1.4rem;left:0;z-index: 99; }
+#banner2{border-radius: 0 0 1rem 1rem; }
+#banner2 .bannertop{height:1.5rem;width:100%;border-radius:1rem 1rem 0 0;top:-1.4rem;left:0;z-index: 99; }
 #banner2 ul{text-align: center;padding:0 4% 10px;}
 #banner2 ul li{float:left;width:18%;margin-right:2.5%;}
 #banner2 ul .last{margin-right:0;}
@@ -9,13 +9,13 @@
 #banner2 ul li a img{width:100%;}
 #banner2 ul li a p{font-size:1.3rem;color:#333;padding:10px 0;}
 
-#banner3{padding:0 4%;background: #fff;height: 30px;line-height:30px;margin: 5px 0;border-radius:4px;}
+#banner3{padding:0 4%;height: 30px;line-height:30px;margin: 5px 0;border-radius:4px;}
 #banner3 .bT1{font-size:1.3rem; ;color:#fd1134;}
 #banner3 .bT2{font-size:1.2rem; ;color:#ff5000;}
 #banner3 .bT3{font-size:1.2rem; ;color:#1a1a1a;padding: 0 6px;}
 #banner3 .bT4{font-size:1.2rem; ;color:#1a1a1a;}
 
-#banner4{background: #fff;padding:0 4%;}
+#banner4{padding:0 4%;}
 #banner4 .container{padding: 0;}
 #banner4 .bt{height: 33px;line-height: 33px;}
 #banner4 .zy{font-size: 15px;color:#1a1a1a;}
@@ -32,7 +32,7 @@
 header .l_img{display:inline-block; }
 header .l_img img{width:13px;}
 header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
-#L_menu{background: #fff;margin-top: 10px;padding: 0 4%;}
+#L_menu{margin-top: 10px;padding: 0 4%;}
 #L_menu .container,#L_menu2 .container{padding: 0;}
 #L_menu .row,#L_menu2 .row{border-bottom: 1px solid #ccc;margin-bottom: 15px;height: 45px;line-height:43px;}
 #L_menu .row input,#L_menu2 .row input{border: none;outline: none;}
@@ -48,5 +48,23 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 #L_menu .L_zero{width: 100px;height: 35px;display:block;background: #ff5000;line-height: 35px;color:#fff;text-align: center;border-radius: 5px;}
 
 /*登录页面*/
-#L_menu2{height:100%;background: #fff;padding:25px 4% 0;}
-#L_menu2 .xyb  .L_em{font-size:17px;color:#333;height: 50px;line-height: 50px; }
+#L_menu2{height:100%;padding:25px 4% 0;}
+#L_menu2 .xyb  .L_em a{font-size:17px;color:#333;height: 50px;line-height: 50px; }
+
+/*我的订单----全部订单*/
+.banner_t{z-index:100;margin-top:10px;width: 100%;height: 60px;left:0;}
+.banner_t ul{width: 100%;}
+.banner_t ul li{width: 20%;text-align: center;float: left;padding-top: 7px;}
+.banner_t ul li:hover{background: #ff5000;}
+.banner_t ul li a{display: inline-block;}
+.banner_t ul li a img{width: 25px;height: 25px;}
+.banner_t ul li span{color:#333;font-size:12px;display: block;height: 27px;line-height: 27px;}
+
+.banner_t2{margin-top: 5px;}
+.banner_t2 .container{padding: 0;}
+.banner_t2 .container .row{padding: 0 4%}
+.banner_t2 .stat{border-bottom:1px solid #ccc;}
+.banner_t2 p{color:#ff5000;height: 30px;line-height: 30px;padding: 0 4%;}
+.banner_t2 .stat2{height: 95px;}
+.banner_t2 .stat2 span{color:#333;font-size: 16px;}
+.banner_t2 .stat2 span i{color:#ff5000; }
