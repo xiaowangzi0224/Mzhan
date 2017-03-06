@@ -101,3 +101,6 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 .banner_s2  .row .fir3 ul{height: 30px;line-height: 30px;}
 .banner_s2  .row .fir3 ul li{float: left;font-size: 16px;color:#333;}
 .banner_s2  .row .fir3 ul li span{color:#ff5000;}
+
+.banner_s2 .dise_sl{height: 30px;line-height:30px;background: #ff5000;border-bottom-left-radius:8px;border-bottom-right-radius:8px;  }
+.banner_s2 .dise_sl p{color:#fff;font-size: 16px; }
