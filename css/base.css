@@ -2,7 +2,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt,dd, ul, ol,li, pre,butto
 body, button, input, select, textarea {font-family:Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;}
 a{text-decoration: none;}
 ul, ol{list-style: none;}
-body,html{font-size: 62.5%;width: 100%;height: 100%;min-width: 320px;background: #eeeef3;}
+body,html{font-size: 62.5%;width: 100%;height: 100%;min-width: 320px;background: #fff;}
 html { -webkit-text-size-adjust: none; }
 i,b{font-style:normal;}
 .clear{clear:both;}
@@ -24,6 +24,7 @@ label,button {cursor: pointer;}
 .inBlock{ display: inline-block; }
 .f5{background: #ff5000;}
 .ff{background: #fff;}
+.banr2{height: 5px;background: #eeeef3;}
 
 
 /*Ö÷Ò³*/
@@ -39,6 +40,8 @@ header .container{padding: 0;}
 #home .h_massage img{width:25px;float:right;}
 #kong{height:44px;}
 #kong3{height:70px;}
+#kong4{height:93px;}
+
 
 
 /*Î²²¿Çø footer*/
