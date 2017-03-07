@@ -47,6 +47,15 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 #L_menu .L_phone,#L_menu2 .L_phone{width: 100%;}
 #L_menu .L_zero{width: 100px;height: 35px;display:block;background: #ff5000;line-height: 35px;color:#fff;text-align: center;border-radius: 5px;}
 
+/*我的订单----已完成---订单详情*/
+#L_menu .row .way{font-size: 15px;color:#333;font-weight: bold;}
+#L_menu .row .way2{font-size: 14px;color: #ff5000;text-align: right;}
+#L_menu .row .fp{color:#999;font-size: 12px;height: 24px;line-height: 24px;padding-left: 8%;}
+#L_menu .row01{height: 28px;line-height: 25px;border: none;}
+#L_menu .row01 p{width: 89px;text-align: right;}
+#L_menu .row01 span{color:#ff5000;font-size: 14px;}
+#L_menu .row01 span i{font-size: 12px;}
+#L_menu .row .xia{height: 30px;line-height: 30px;font-size: 16px;color:#333;}
 /*登录页面*/
 #L_menu2{padding:0 4%;margin-top: 10px}
 #L_menu2 .xyb  .L_em a{font-size:17px;color:#333;height: 50px;line-height: 50px; }
@@ -84,12 +93,15 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 .serial{padding: 0 4%;}
 .serial p{letter-spacing: 1px;height: 35px;line-height: 35px;font-size: 16px;color:#333;}
 .serial p span{color:#ff5000;}
-.banner_t3{z-index:100;width: 100%;margin:5px 0;height:40px;line-height: 40px;}
+.banner_t3{z-index:100;width: 100%;height:50px;}
+.banner_t3 .ban3{height: 5px;background: #eeeef3;}
 .banner_t3 ul{height: 40px;line-height: 40px;padding: 0 4%;}
 .banner_t3 ul li{float: left;}
 .banner_t3 ul li span{display:inline-block;font-size: 16px;color:#333;}
 
-.banner_s{margin-bottom: 5px;z-index:101;width:100%;height:88px;padding: 0 4%;}
+.banner_s{z-index:100;width:100%;height:93px;}
+.banner_s .banner_u{padding: 0 4%;}
+.banner_s .banner_u2{height: 5px;background: #eeeef3;}
 .banner_s ul{height: 30px;line-height: 30px;}
 .banner_s ul li{float: left;font-size: 16px;color:#333;}
 .banner_s ul .fir{padding-right: 25px;}
@@ -102,5 +114,5 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 .banner_s2  .row .fir3 ul li{float: left;font-size: 16px;color:#333;}
 .banner_s2  .row .fir3 ul li span{color:#ff5000;}
 
-.banner_s2 .dise_sl{height: 30px;line-height:30px;background: #ff5000;border-bottom-left-radius:8px;border-bottom-right-radius:8px;  }
-.banner_s2 .dise_sl p{color:#fff;font-size: 16px; }
+.dise_sl{height: 30px;line-height:30px;background: #ff5000;border-bottom-left-radius:8px;border-bottom-right-radius:8px;  }
+.dise_sl p{color:#fff;font-size: 16px; }

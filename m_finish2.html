@@ -2,14 +2,22 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>我的订单----已完成---订单详情</title>
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <style>
-        body{background: #eeeef3;}
+
+
+        #L_menu .row {
+            height: 35px;
+            line-height: 35px;
+            margin-bottom: 0;
+            border-bottom: 1px solid #eeeef3;
+        }
     </style>
 </head>
 <body>
@@ -30,39 +38,44 @@
 <section class="fixed banner_t ff">
     <div class="serial">
         <p>订单编号：2016092530986</p>
+
         <p>订单状态：<span>已完成</span></p>
     </div>
 </section>
 <div id="kong3"></div>
 
 <section class="banner_t3 ff fixed">
+    <div class="ban3"></div>
     <ul>
         <li>
             <span> 订单进度查询</span>
         </li>
         <li style="float: right;">
-            <a href="#"><img src="images/L_yjt.png" width="13"> </a>
+            <a href="m_finish3.html"><img src="images/L_yjt.png" width="13"> </a>
         </li>
     </ul>
+    <div class="ban3"></div>
 </section>
 <div id="kong2"></div>
 
 <section class="banner_s ff fixed">
-    <ul>
-        <li class="fir">李杰</li>
-        <li>189****5330</li>
-    </ul>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6" style="width: 86.5%">
-               <p>北京  大兴区  六环内亦庄经济技术开发区 地盛南街甲1号院  中电金扬科技园  3号楼C409</p>
-            </div>
-            <div class="col-xs-6 ar" style="width: 13.5%;margin-top: 13px;">
-                <a href="#"><img src="images/h_dingw.png" width="13"> </a>
+    <div class="banner_u clearfix">
+        <ul>
+            <li class="fir">李杰</li>
+            <li>189****5330</li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6" style="width: 86.5%">
+                    <p>北京 大兴区 六环内亦庄经济技术开发区 地盛南街甲1号院 中电金扬科技园 3号楼C409</p>
+                </div>
+                <div class="col-xs-6 ar" style="width: 13.5%;margin-top: 13px;">
+                    <a href="#"><img src="images/h_dingw.png" width="13"> </a>
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="banner_u2"></div>
 </section>
 <div id="kong4"></div>
 
@@ -137,28 +150,104 @@
         </div>
 
 
-
-
-
-        </div>
-    <div class="dise_sl ac relative">
-        <p>
-            收起商品列表
-      <img src="images/h_sla.png" width="15" style="padding-left: 5px;">
-        </p>
-
-
-
     </div>
+</section>
+<section class="dise_sl ac">
+    <p>
+        收起商品列表
+        <img class="img1" src="images/h_sla.png" width="15" style="padding-left: 5px;">
+        <img class="img2" src="images/h_xla.png" width="15" style="padding-left: 5px; display: none;">
+    </p>
+</section>
+
+<section id="L_menu" class="ff">
+    <div class="container" style="width: 100%;">
+        <div class="row">
+            <div class="col-xs-4 way">搬运方式</div>
+            <div class="col-xs-8 way2"> 不需上楼</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 way">配送时间</div>
+            <div class="col-xs-8 way2">10月04日 08:00~12:00</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 way">支付方式</div>
+            <div class="col-xs-8 way2">在线支付</div>
+        </div>
+        <div class="row" style="height: 79px;">
+            <div class="col-xs-12 way">
+                <span style="line-height: 30px;display: block;">发票信息</span>
+
+                <p class="fp">订单备注的内容，有则显示，没有则显示“无”</p>
+            </div>
+        </div>
+        <div class="row" style="height: 79px;">
+            <div class="col-xs-12 way">
+                <span style="line-height: 30px;display: block;">订单备注</span>
+
+                <p class="fp">发票抬头：xxxx有限公司</p>
+
+                <p class="fp">发票内容：建材</p>
+            </div>
+        </div>
+        <div class="row" style="height:146px;font-size: 16px;color:#333;">
+            <div style="height: 112px;border-bottom: 1px solid #ff5000;">
+                <div class="row01">
+                    <div class="col-xs-5"><p>商品总金额:</p></div>
+                    <div class="col-xs-7 ar"><span>￥50.<i>00</i></span>元</div>
+                </div>
+                <div class="row01">
+                    <div class="col-xs-5"><p>上楼费:</p></div>
+                    <div class="col-xs-7 ar"><span>￥50.<i>00</i></span>元</div>
+                </div>
+                <div class="row01">
+                    <div class="col-xs-5"><p>配送费:</p></div>
+                    <div class="col-xs-7 ar"><span>￥50.<i>00</i></span>元</div>
+                </div>
+                <div class="row01">
+                    <div class="col-xs-5"><p>优惠金额:</p></div>
+                    <div class="col-xs-7 ar"><span>-￥50.<i>00</i></span>元</div>
+                </div>
+            </div>
+            <div class="row01" style="height: 35px;line-height: 35px;">
+                <div class="col-xs-5"><p>实付金额:</p></div>
+                <div class="col-xs-7 ar"><span>￥350.<i>00</i></span>元</div>
+            </div>
+        </div>
+        <div class="row" style="height:80px;padding: 10px 4%;border: none;">
+
+            <p class="xia ar"> 下单时间：2016-10-02 17:50:43</p>
+            <p class="xia ar">收货时间：2016-10-02 17:50:43</p>
+        </div>
+
+        <div class="row xyb" style="border:none;margin-top: 0;height: 46px;line-height: 45px;margin-bottom: 15px;">
+            <a href="#">
+                <button type="button" class="btn btn-lg btn-block active">申请退货/退款</button>
 
 
-
-
-
+            </a>
+        </div>
+    </div>
 </section>
 
 
+<script src="lib/js/jquery-1.8.2.min.js"></script>
+<script>
+    $(function () {
+        $(".img1").bind( "touchend", function () {
+            $(".banner_s2").hide();
+            $(".img1").hide();
+            $(".img2").show();
+        });
+        $(".img2").bind( "touchend", function () {
+            $(".banner_s2").show();
+            $(".img1").show();
+            $(".img2").hide();
+        });
 
+    })
+</script>
 
 </body>
 </html>
