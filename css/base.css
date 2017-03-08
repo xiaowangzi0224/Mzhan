@@ -45,7 +45,7 @@ header .container{padding: 0;}
 
 
 /*Î²²¿Çø footer*/
-#kong2{height:50px;}
+#kong2,#kong5{height:50px;}
 footer{z-index:100;width:100%;font-size:0;bottom:0;background: #fff;border-top: 1px solid #e1e1e1;}
 footer a{display:inline-block;padding-top:5px;text-align: center;}
 footer a img{width:25px;}
@@ -61,3 +61,17 @@ footer a span:hover{color:#fa6400;}
 .bj_Mask .bj_tc .psd{background: #e6e6e6;height: 48px;border: 1px solid #ccc; margin: 0 7%;}
 .bj_Mask .bj_tc .psd input{width: 100%;height: 46px;line-height: 46px;border: none;outline: none;text-align: center;background: #e6e6e6;font-size: 18px;}
 .bj_Mask .bj_tc .btn2{border:none;outline:none;border-radius:8px;margin-top: 30px;background: #ff5000;color: #fff;font-size: 1.7rem;letter-spacing: 3px;padding: 6px 20%;}
+.bj_Mask .m_cancel{background: #ff5000;height: 60px;line-height: 60px;margin-top: 17px;border-bottom-left-radius: 13px;border-bottom-right-radius: 13px;}
+.bj_Mask .m_cancel a{display:block;font-size: 18px;color:#fff;letter-spacing: 3px;}
+.bj_Mask .m_cancel .canc01{border-right: 1px solid #fff;height: 60px;}
+
+@media only screen and (min-width : 768px) {
+    .banner_t2 .stat2 .m_del2 .btn{padding: 6px 65px;}
+    .banner_t2 .h_sy{top: 50px; right:100px;}
+}
+
+
+@media only screen and (min-width :320px) {
+    .m_con2{width: 40%;}
+    .m_con3{width: 26.6%;}
+}

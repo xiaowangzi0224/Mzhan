@@ -84,17 +84,14 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 .banner_t2 .stat2 .m_del{display: inline-block;height: 38px;line-height: 38px;color:#ff5000;}
 .banner_t2 .stat2 .m_del2{display: inline-block;color:#fff;}
 .banner_t2 .stat2 .m_del2 .btn{border-color: #ff5000;background: #ff5000;}
-@media only screen and (min-width : 768px) {
-    .banner_t2 .stat2 .m_del2 .btn{padding: 6px 65px;}
-    .banner_t2 .h_sy{top: 50px; right:100px;}
-}
+
 
 /*我的订单----已完成---订单详情*/
 .serial{padding: 0 4%;}
 .serial p{letter-spacing: 1px;height: 35px;line-height: 35px;font-size: 16px;color:#333;}
 .serial p span{color:#ff5000;}
 .banner_t3{z-index:100;width: 100%;height:50px;}
-.banner_t3 .ban3{height: 5px;background: #eeeef3;}
+.banner_t3 .ban3,.banner_t6 .ban3{height: 5px;background: #eeeef3;}
 .banner_t3 ul{height: 40px;line-height: 40px;padding: 0 4%;}
 .banner_t3 ul li{float: left;}
 .banner_t3 ul li span{display:inline-block;font-size: 16px;color:#333;}
@@ -116,3 +113,45 @@ header h4{color:#fff;font-size:1.7rem;line-height: 27px;}
 
 .dise_sl{height: 30px;line-height:30px;background: #ff5000;border-bottom-left-radius:8px;border-bottom-right-radius:8px;  }
 .dise_sl p{color:#fff;font-size: 16px; }
+
+/*我的订单----已完成---订单详情--订单进度*/
+.banner_t4{height: 220px;padding: 10px 0;}
+.banner_t4 .fir4{padding: 0 4%;}
+.banner_t4 .fir4 li img{height: 200px;}
+.banner_t4 .fir4 .fir04{margin-right: 23px;}
+.banner_t4 .fir4 .gd{height: 66px;margin-bottom: 2px;}
+.banner_t4 .fir4 p{font-size: 14px;color:#999;line-height: 33px;}
+.banner_t4 .fir4 .p1{color:#ff5000;}
+.banner_t4 .fir4 .p2{font-size: 12px;}
+/*我的订单----代确认---待客服审核*/
+.banner_t5{padding:10px 4%;}
+.banner_t5 .ban5{text-align:center;height: 250px;line-height:250px;width: 100%;border: 1px solid #ccc;}
+.banner_t5 .ban_zj{margin-top: 30px;}
+.banner_t5 .ban_zj ul{width: 100%;height: 60px;margin-top: 15px;}
+.banner_t5 .ban_zj ul li{float: left;width:25%;text-align: center;}
+.banner_t5 .ban_zj ul li img{width: 60px;}
+.banner_t5 .ban_zj p{height: 45px;line-height: 45px;font-size: 16px;color:#333;}
+/*我的订单---订单详情---待用户确认*/
+.banner_t6{height: 275px;}
+.banner_t6 ul{height: 270px;padding: 5px 0;}
+
+.top_older03 .y{padding:0 4%; height: 40px;line-height: 40px;}
+.top_older03 ul{border-top: 1px solid #eeeef3;width: 100%;height:50px;}
+.top_older03 ul li{float: left;padding:0 4%;height:50px;}
+.top_older03 p{color:#333;font-size: 14px;line-height: 25px; }
+.top_older03 .li_01{width:60%;border-right: 1px solid #eeeef3;}
+.top_older03 .li_02{width:40%;}
+.top_older03 .p_h{color:#808080;font-size:12px;}
+.top_older03 .red{color:#ff5000;}
+.top_older03 .red i{font-size: 12px;}
+.m_con{height: 50px;line-height: 50px;}
+.m_con p{font-size: 16px;color: #333;}
+.m_con p .red{color:#ff5000;}
+.m_con a{color:#fff;display: block;background: #ff5000;padding: 0;}
+.m_con a button{border: none;outline:none;width: 100%;height:50px;background: #ff5000;}
+
+
+
+
+
+
