@@ -1,3 +1,4 @@
+@charset "utf-8";
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt,dd, ul, ol,li, pre,button, fieldset, form,  input, legend,  td, textarea, th{margin: 0;padding: 0;}
 body, button, input, select, textarea {font-family:Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;}
 a{text-decoration: none;}
@@ -25,9 +26,10 @@ label,button {cursor: pointer;}
 .f5{background: #ff5000;}
 .ff{background: #fff;}
 .banr2{height: 5px;background: #eeeef3;}
+.banr3{height: 10px;background: #eeeef3;}
 
 
-/*÷˜“≥*/
+/*‰∏ªÈ°µ*/
 header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;z-index: 100;}
 header .container{padding: 0;}
 #home{height:28px;width: 100%;line-height: 27px;}
@@ -44,7 +46,7 @@ header .container{padding: 0;}
 
 
 
-/*Œ≤≤ø«¯ footer*/
+/*Â∞æÈÉ®Âå∫ footer*/
 #kong2,#kong5{height:50px;}
 footer{z-index:100;width:100%;font-size:0;bottom:0;background: #fff;border-top: 1px solid #e1e1e1;}
 footer a{display:inline-block;padding-top:5px;text-align: center;}
@@ -52,8 +54,10 @@ footer a img{width:25px;}
 footer a .zy{color:#ff5000;}
 footer a span{display:block;color:#ccc;height:18px;line-height:18px;font-size:1rem;}
 footer a span:hover{color:#fa6400;}
+footer .m_count{top: 3px;right: 0;color: #fff;background: #ff5000;display: block;border-radius:3px;width:20px;line-height: 12px;height: 12px;}
 
-/*’⁄’÷≤ø∑÷*/
+
+/*ÈÅÆÁΩ©ÈÉ®ÂàÜ*/
 .bj_Mask{position: fixed;left: 0; top: 0; z-index: 100; width: 100%;height: 100%; background: url(../images/zhezhao.png) left top;display: none;}
 .bj_Mask .bj_tc{height: 330px;border-radius: 13px;margin: 30% 4%;background: #fff;text-align: center;}
 .bj_Mask .bj_tc .suo{padding-top: 25px;}
@@ -68,9 +72,12 @@ footer a span:hover{color:#fa6400;}
 @media only screen and (min-width : 768px) {
     .banner_t2 .stat2 .m_del2 .btn{padding: 6px 65px;}
     .banner_t2 .h_sy{top: 50px; right:100px;}
+    .container{width: 100%;}
+    .banner_t7 .bt .row1 .row{height: 50px;line-height: 50px;}
+    .banner_t7 .col-xs-4{width: 15%;}
+    .banner_t7 .col-xs-8{width: 85%;}
+    .banner_t7 .row1 .gain{line-height: 50px;font-size: 16px;}
 }
-
-
 @media only screen and (min-width :320px) {
     .m_con2{width: 40%;}
     .m_con3{width: 26.6%;}
