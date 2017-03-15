@@ -7,8 +7,9 @@
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
 <header class="fixed">
     <div class="container" id="home">
         <div class="row">
@@ -22,12 +23,314 @@
     </div>
 </header>
 <div id="kong"></div>
+
+<!--收货地址选择-->
 <section class="der">
+    <ul>
+        <li>送至：</li>
+        <li class="ac">
+            <a href="#"> 点击选择收货地址</a>
+        </li>
+        <li class="ar"><a href="#"><img src="images/L_yjt.png" width="11"> </a></li>
+    </ul>
+</section>
+<div class="banr2"></div>
+
+<!--商品部分图片提示-->
+<section class="der2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3"><img src="images/h_dfkt.png" width="56"></div>
+            <div class="col-xs-3"><img src="images/h_dfkt.png" width="56"></div>
+            <div class="col-xs-3"><img src="images/h_dfkt.png" width="56"></div>
+            <div class="col-xs-3" style="padding-right: 0">
+                <ul>
+                    <li> 共<span>10</span>件</li>
+                    <li style="float: right;"><a href="#"><img src="images/L_yjt.png" width="11"></a></li>
+                </ul>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="banr2"></div>
+
+<!--配送方式-->
+<section class="der3">
+    <div class="der3_t">
+        <ul>
+            <li>配送方式</li>
+        </ul>
+    </div>
+    <div class="der3_b">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-default">六环内</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-default"> 六环外</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-default"> 通州</button>
+                </div>
+                <div class="col-xs-3" style="margin-right: 0;">
+                    <button type="button" class="btn btn-default"> 大兴区</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="banr2"></div>
+
+<!--上楼方式-->
+<section class="der4">
+    <div class="der3_t">
+        <ul>
+            <li>上楼方式</li>
+        </ul>
+    </div>
+    <div class="der3_b">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default">不需上楼</button>
+                </div>
+                <div class="col-xs-4" style="margin: 0 2%">
+                    <button type="button" class="btn btn-default"> 电梯上楼</button>
+                </div>
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default" ng-click="lout()"> 楼梯上楼</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--点击楼梯上楼时出现部分-->
+    <div ng-show="loutDiv" class="der3_b02">
+        <ul>
+            <li> 楼层数</li>
+        </ul>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4"><button type="button" class="btn btn-default">-3至~1层</button></div>
+                <div class="col-xs-4" style="margin:0 2%;"><button type="button" class="btn btn-default">1~5层</button></div>
+                <div class="col-xs-4"><button type="button" class="btn btn-default">6~8层</button></div>
+
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-xs-4"><button type="button" class="btn btn-default">9~12层</button></div>
+                <div class="col-xs-4" style="margin:0 2%;"><button type="button" class="btn btn-default">13~18层</button></div>
+                <div class="col-xs-4"><button type="button" class="btn btn-default">18层以上</button></div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="der3_b2">
+        <ul>
+            <li class="ar">上楼费：<span>￥0.<i>00</i></span>元</li>
+        </ul>
+
+    </div>
+
+</section>
+<div class="banr2"></div>
+
+<!--配送时间-->
+<section class="der4">
+    <div class="der3_t">
+        <ul>
+            <li>配送时间</li>
+        </ul>
+    </div>
+
+    <div class="der3_b3">
+        <ul class="clearfix">
+            <li>
+                <button type="button" class="btn btn-default">10月11日（明天）</button>
+            </li>
+            <li>
+                <a class="xg" href="#">点击修改</a>
+            </li>
+        </ul>
+
+        <ul class="clearfix">
+            <li>
+                <button type="button" class="btn btn-default">8:00~12:00</button>
+            </li>
+            <li>
+                <button type="button" class="btn btn-default">12:00~20:00</button>
+            </li>
+        </ul>
+
+    </div>
+
+
+    </div>
+
+</section>
+<div class="banr2"></div>
+
+<!--支付方式-->
+<section class="der4">
+    <div class="der3_t">
+        <ul>
+            <li>支付方式</li>
+        </ul>
+    </div>
+
+    <div class="der3_b" style="height: 84px;padding: 5px 4%;">
+        <div class="container">
+            <div class="row" style="margin-top: 6px;">
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default"><img class="pay" src="images/h_wxx.jpg" width="15"> 微信支付</button>
+                </div>
+                <div class="col-xs-4" style="margin: 0 2%">
+                    <button type="button" class="btn btn-default"><img class="pay" src="images/h_bx.jpg" width="15">支付宝支付</button>
+                </div>
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default"><img class="pay" src="images/h_dfkx.jpg" width="15"> 货到付款</button>
+                </div>
+            </div>
+            <div class="row" style="margin-top:11px;">
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-default"><img class="pay" src="images/h_zhx.jpg" width="15"> 绿优币支付</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="banr2"></div>
+
+<!--订单备注-->
+<section class="der4">
+    <div class="der3_t">
+        <ul>
+            <li>订单备注</li>
+        </ul>
+    </div>
+
+    <div class="der3_b" style="height: 190px;padding:21px 4%;">
+            <form>
+                <textarea rows="3" cols="20" placeholder="可填写您的其他要求（50字以内）。"></textarea>
+            </form>
+    </div>
+</section>
+<div class="banr2"></div>
+
+<!--发票信息-->
+<section class="der5">
+    <ul class="clearfix">
+        <li class="fl">发票信息</li>
+        <li class="fr">
+            <a href="#"><img src="images/L_yjt.png" width="11"> </a>
+        </li>
+    </ul>
+</section>
+<div class="banr2"></div>
+
+<!--优惠劵-->
+<section class="der5">
+    <ul class="clearfix">
+        <li class="fl">优惠劵</li>
+        <li class="fr">
+       <span style="color:#ff5000;"> 0 </span>张可用
+            <a href="m_coupon2.html"><img src="images/L_yjt.png" width="11"> </a>
+        </li>
+    </ul>
+</section>
+<div class="banr2"></div>
+
+<!--订单费用统计区-->
+<section class="der6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-5"><p>商品总金额:</p></div>
+            <div class="col-xs-7 ar">
+                <span>￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5"><p>上楼费:</p></div>
+            <div class="col-xs-7 ar">
+                <span>￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5"><p>配送费:</p></div>
+            <div class="col-xs-7 ar">
+                <span>￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5"><p>优惠金额:</p></div>
+            <div class="col-xs-7 ar">
+                <span>-￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="area">
+            <ul>
+                <li class="ps">配送至：</li>
+                <li>北京市大兴区亦庄经济开发区地盛南街甲甲甲甲甲</li>
+            </ul>
+
+
+
+
+
+        </div>
+    </div>
+
 
 </section>
 
 
 
+
+<!--底部-->
+<div id="kong5"></div>
+<footer class="fixed m_con">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4" style="padding-right: 0;">
+                <p>实付金额:</p>
+            </div>
+            <div class="col-xs-4 m_con2" style="padding: 0">
+                <p><span style="color:#ff5000;">￥360.<i style="font-size: 12px;">00</i></span>元</p>
+            </div>
+            <div class="col-xs-4 m_con3" style="padding: 0;">
+                <a href="#">
+                    <button type="button" class="btn" >提交订单</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http) {
+
+        $scope.lout = function () {
+       $scope.loutDiv = true;
+            
+        }
+
+    });
+</script>
 
 </body>
 </html>
