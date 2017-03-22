@@ -34,10 +34,10 @@ header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;z-index: 100;}
 header .container{padding: 0;}
 #home{height:28px;width: 100%;line-height: 27px;}
 #home li{float: left;}
-#home .h_city{width: 18.8%;font-size:1.5rem;color:#fff;}
+#home .h_city{width: 18.8%;font-size:15px;color:#fff;}
 #home .h_city img{width:17px;height: 10px;padding-left:4px;}
-#home .h_search{width: 69.6%;background:#fff url("../images/h_search.png") no-repeat 1rem center;background-size:14px 12px ;padding-left:8%;border-radius:13px;}
-#home .h_search input{border:none;font-size:1.3rem;height:22px;line-height: 22px;outline: none;width:96%;text-indent: 5px;}
+#home .h_search{width: 69.6%;background:#fff url("../images/h_search.png") no-repeat 10px center;background-size:14px 12px ;padding-left:8%;border-radius:13px;}
+#home .h_search input{border:none;font-size:13px;height:22px;line-height: 22px;outline: none;width:96%;text-indent: 5px;}
 #home .h_massage{width:11.6%;}
 #home .h_massage img{width:25px;float:right;}
 #kong{height:44px;}
@@ -52,7 +52,7 @@ footer{z-index:100;width:100%;font-size:0;bottom:0;background: #fff;border-top: 
 footer a{display:inline-block;padding-top:5px;text-align: center;}
 footer a img{width:25px;}
 footer a .zy{color:#ff5000;}
-footer a span{display:block;color:#ccc;height:18px;line-height:18px;font-size:1rem;}
+footer a span{display:block;color:#ccc;height:18px;line-height:18px;font-size:12px;}
 footer a span:hover{color:#fa6400;}
 footer .m_count{top: 3px;right: 0;color: #fff;background: #ff5000;display: block;border-radius:3px;width:20px;line-height: 12px;height: 12px;}
 
@@ -64,10 +64,14 @@ footer .m_count{top: 3px;right: 0;color: #fff;background: #ff5000;display: block
 .bj_Mask .bj_tc p{font-size: 19px;color:#333;height: 68px;line-height: 68px;font-weight: bold;}
 .bj_Mask .bj_tc .psd{background: #e6e6e6;height: 48px;border: 1px solid #ccc; margin: 0 7%;}
 .bj_Mask .bj_tc .psd input{width: 100%;height: 46px;line-height: 46px;border: none;outline: none;text-align: center;background: #e6e6e6;font-size: 18px;}
-.bj_Mask .bj_tc .btn2{border:none;outline:none;border-radius:8px;margin-top: 30px;background: #ff5000;color: #fff;font-size: 1.7rem;letter-spacing: 3px;padding: 6px 20%;}
+.bj_Mask .bj_tc .btn2{border:none;outline:none;border-radius:8px;margin-top: 30px;background: #ff5000;color: #fff;font-size: 17px;letter-spacing: 3px;padding: 6px 20%;}
 .bj_Mask .m_cancel{background: #ff5000;height: 60px;line-height: 60px;margin-top: 17px;border-bottom-left-radius: 13px;border-bottom-right-radius: 13px;}
 .bj_Mask .m_cancel a{display:block;font-size: 18px;color:#fff;letter-spacing: 3px;}
 .bj_Mask .m_cancel .canc01{border-right: 1px solid #fff;height: 60px;}
+.bj_Mask .rem_m{height: 35px;line-height: 35px;padding:2px 12%;}
+.bj_Mask .rem_m li{text-align:center;float: left;width:45%;height: 35px;background: #ff5000;border-radius: 5px; }
+.bj_Mask .rem_m li a{color:#fff;}
+
 
 @media only screen and (min-width : 768px) {
     .banner_t2 .stat2 .m_del2 .btn{padding: 6px 65px;}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>子账号管理列表</title>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<header class="fixed">
+    <div class="container" id="home">
+        <div class="row">
+            <div class="col-xs-3">
+                <a class="l_img" href="#"><img src="images/L_zjt.png"></a>
+            </div>
+            <div class="col-xs-6 ac">
+                <h4>子账号管理列表</h4>
+            </div>
+            <div class="col-xs-3 ar">
+                <a href="#"><h4 style="font-size: 1.4rem;">添加</h4></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="kong"></div>
+
+<section class="list_t">
+    <p>当前已有<span>4</span>个子账号</p>
+</section>
+<div class="banr2"></div>
+
+<section class="list_b">
+    <div class="list_b1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <ul>
+                        <li>子账号姓名：诸葛奥迪</li>
+                        <li>手机号码：15236363256</li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 ar">
+                    <ul>
+                        <li style="color:#ff5000;">正常使用</li>
+                        <li><button type="button" class="btn" ng-click="Remove()">解除关系</button> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="list_b1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <ul>
+                        <li>子账号姓名：诸葛奥迪</li>
+                        <li>手机号码：15236363256</li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 ar">
+                    <ul>
+                        <li style="color:#ff5000;">未激活</li>
+                        <li><button type="button" class="btn" ng-click="remind()">提醒激活</button> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="list_b1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <ul>
+                        <li>子账号姓名：诸葛奥迪</li>
+                        <li>手机号码：15236363256</li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 ar">
+                    <ul>
+                        <li style="color:#ff5000;">未激活</li>
+                        <li><button type="button" class="btn" ng-click="remind()">提醒激活</button> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<div ng-show="bj_m" class="bj_Mask" style="display: block;">
+    <div class="bj_tc" style="height: 240px;">
+        <div class="suo">
+            <img src="images/h_gantan.png" width="62">
+        </div>
+        <p>您确定要与该子账号解除关吗？</p>
+
+        <ul class="rem_m">
+            <li ng-click="OK()" class="fl" style="margin-right: 4%;"><a href="#">取消</a></li>
+            <li ng-click="OK()" class="fl"><a href="#">确定</a></li>
+        </ul>
+
+
+    </div>
+</div>
+<div ng-show="bj_m2" class="bj_Mask" style="display: block;">
+    <div class="bj_tc" style="height: 240px;">
+        <div class="suo">
+            <img src="images/h_succes.png" width="62">
+        </div>
+        <p>激活短信提醒已发送成功</p>
+
+        <button ng-click="OK2()" type="button" class="btn2" style="margin-top: 0;">确定</button>
+    </div>
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http) {
+        $scope.Remove = function () {
+            $scope.bj_m = true;
+        }
+        $scope.OK= function () {
+            $scope.bj_m=false;
+        }
+        $scope.remind= function () {
+            $scope.bj_m2 = true;
+        }
+        $scope.OK2= function () {
+            $scope.bj_m2=false;
+        }
+
+    });
+</script>
+</body>
+</html>
