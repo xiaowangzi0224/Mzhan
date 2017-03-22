@@ -7,176 +7,194 @@
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        body{background: #eeeef3;}
-    </style>
+    <script type="text/javascript" src="lib/js/jquery-1.10.2.min.js"></script>
+    <script src="lib/js/swipe2.js" type="text/javascript"></script>
 
 </head>
 <body>
-<header class="fixed">
-    <ul  id="home">
-        <li class="h_city">北京<img src="images/h_jiantou.png"/></li>
-        <li class="h_search"><input type="search" placeholder="水管" maxlength="30"></li>
-        <li class="h_massage"><img src="images/h_xiaoxi.png"></li>
-    </ul>
-</header>
-<div id="kong"></div>
-<section id="banner">
-    <a href="#"><img src="images/h_brj.jpg"/></a>
-</section>
-
-<section id="banner2" class="relative ff">
-    <div class="bannertop absolute ff"></div>
-    <ul>
-        <li><a href="#"><img src="images/h_Plumber.png"/><p>水工</p></a></li>
-        <li><a href="#"><img src="images/h_electrician.png"/><p>电工</p></a></li>
-        <li><a href="#"><img src="images/h_carpentry.png"/><p>木工</p></a></li>
-        <li><a href="#"><img src="images/h_Bricklayer.png"/><p>瓦工</p></a></li>
-        <li class="last"><a href="#"><img src="images/h_Oilers.png"/><p>油工</p></a></li>
-        <div class="clear"></div>
-    </ul>
-    <ul>
-        <li><a href="#"><img src="images/h_protestio.png"/><p>劳保工具</p></a></li>
-        <li><a href="#"><img src="images/h_Dressing.png"/><p>外装材料</p></a></li>
-        <li><a href="#"><img src="images/h_self.png"/><p>绿优自营</p></a></li>
-        <li><a href="picture.html"><img src="images/h_photograph.png"/><p>拍照下单</p></a></li>
-        <li  class="last"><a href="#"><img src="images/h_wallet.png"/><p>绿优钱包</p></a></li>
-        <div class="clear"></div>
-    </ul>
-</section>
-
-<section id="banner3" class="ff">
-    <ul>
-        <li>
-            <a href="#">
-                <span class="bT1">绿优快报</span>
-                <span class="bT2">热卖</span>
-                <span class="bT3">美巢墙锢500</span>
-                <span class="bT4">92元/桶</span>
-            </a>
-        </li>
-    </ul>
-
-
-</section>
-
-<section id="banner4" class="ff">
-    <div class="container">
-        <div class="row bt">
-            <div class="col-xs-6 zy">绿优自营</div>
-            <div class="col-xs-6 gd ar"><a href="#">查看更多>></a></div>
-        </div>
-        <div class="row Cp">
-            <div class="col-xs-6">
-                <img src="images/h_qilei.png">
-                <p>德国都芳生态弹力内墙漆</p>
-                <ul>
-                    <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
-                    <li>
-                        <div class="amount relative">
-                            <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
-                            <input type="number" value="1">
-                            <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
-                        </div>
-                    </li>
-                </ul>
-
-
-            </div>
-            <div class="col-xs-6">
-                <img src="images/h_qilei.png">
-                <p>德国都芳生态弹力内墙漆</p>
-                <ul>
-                    <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
-                    <li>
-                        <div class="amount relative">
-                            <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
-                            <input type="number" value="1">
-                            <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row Cp">
-            <div class="col-xs-6">
-                <img src="images/h_qilei.png">
-                <p>德国都芳生态弹力内墙漆</p>
-                <ul>
-                    <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
-                    <li>
-                        <div class="amount relative">
-                            <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
-                            <input type="number" value="1">
-                            <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
-                        </div>
-                    </li>
-                </ul>
-
-
-            </div>
-            <div class="col-xs-6">
-                <img src="images/h_qilei.png">
-                <p>德国都芳生态弹力内墙漆</p>
-                <ul>
-                    <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
-                    <li>
-                        <div class="amount relative">
-                            <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
-                            <input type="number" value="1">
-                            <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+<div class="f3">
+    <header class="fixed">
+        <ul  id="home">
+            <li class="h_city">北京<img src="images/h_jiantou.png"/></li>
+            <li class="h_search"><input type="search" placeholder="水管" maxlength="30"></li>
+            <li class="h_massage"><img src="images/h_xiaoxi.png"></li>
+        </ul>
+    </header>
+    <div class="mall_main">
+        <div id="banner_box" class="box_swipe">
+            <ul>
+                <li><img src="images/h_brj.jpg"></li>
+                <li><img src="images/h_brj.jpg"></li>
+                <li><img src="images/h_brj.jpg"></li>
+                <li><img src="images/h_brj.jpg"></li>
+            </ul>
+            <ol>
+                <li class="on"></li>&nbsp;
+                <li></li>&nbsp;
+                <li></li>&nbsp;
+                <li></li>&nbsp;
+            </ol>
         </div>
     </div>
+    <script type="text/javascript">
+        $(function(){
+            new Swipe(document.getElementById('banner_box'), {
+                speed: 500,
+                auto: 3000,
+                callback: function(){
+                    var lis = $(this.element).next("ol").children();
+                    lis.removeClass("on").eq(this.index).addClass("on");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function(){
+            $(".spec_select ul li em").click(function(){
+                $(this).addClass("click").siblings().removeClass("click");
+            })
+        })
+    </script>
 
-</section>
+    <!--<section id="banner">-->
+    <!--<a href="#"><img src="images/h_brj.jpg"/></a>-->
+    <!--</section>-->
 
-<div id="kong2"></div>
 
-<footer class="fixed">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-3 ac">
+
+    <section id="banner2" class="relative ff">
+        <div class="bannertop absolute ff"></div>
+        <ul>
+            <li><a href="#"><img src="images/h_Plumber.png"/><p>水工</p></a></li>
+            <li><a href="#"><img src="images/h_electrician.png"/><p>电工</p></a></li>
+            <li><a href="#"><img src="images/h_carpentry.png"/><p>木工</p></a></li>
+            <li><a href="#"><img src="images/h_Bricklayer.png"/><p>瓦工</p></a></li>
+            <li class="last"><a href="#"><img src="images/h_Oilers.png"/><p>油工</p></a></li>
+            <div class="clear"></div>
+        </ul>
+        <ul>
+            <li><a href="#"><img src="images/h_protestio.png"/><p>劳保工具</p></a></li>
+            <li><a href="#"><img src="images/h_Dressing.png"/><p>外装材料</p></a></li>
+            <li><a href="#"><img src="images/h_self.png"/><p>绿优自营</p></a></li>
+            <li><a href="picture.html"><img src="images/h_photograph.png"/><p>拍照下单</p></a></li>
+            <li  class="last"><a href="#"><img src="images/h_wallet.png"/><p>绿优钱包</p></a></li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+
+    <section id="banner3" class="ff">
+        <ul>
+            <li>
                 <a href="#">
-                    <img src="images/h_HOME.png"/>
-                    <span class="zy">主页</span>
+                    <span class="bT1">绿优快报：</span>
+                    <span class="bT2">热卖</span>
+                    <span class="bT3">美巢墙锢500</span>
+                    <span class="bT4">92元/桶</span>
                 </a>
+            </li>
+        </ul>
+    </section>
+    <section id="banner4" class="ff">
+        <div class="container">
+            <div class="row bt">
+                <div class="col-xs-6 zy">绿优自营</div>
+                <div class="col-xs-6 gd ar"><a href="#">查看更多>></a></div>
             </div>
-            <div class="col-xs-3 ac">
-                <a href="#">
-                    <img src="images/h_classify.png"/>
-                    <span>分类</span>
-                </a>
+            <div class="row Cp">
+                <div class="col-xs-6">
+                    <img src="images/h_qilei.png">
+                    <p>德国都芳生态弹力内墙漆</p>
+                    <ul>
+                        <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
+                        <li>
+                            <div class="amount relative">
+                                <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
+                                <input type="number" value="1">
+                                <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6">
+                    <img src="images/h_qilei.png">
+                    <p>德国都芳生态弹力内墙漆</p>
+                    <ul>
+                        <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
+                        <li>
+                            <div class="amount relative">
+                                <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
+                                <input type="number" value="1">
+                                <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-xs-3 ac">
-                <a href="s_cart.html">
-                    <img src="images/h_cart.png"/>
-                    <span>购物车</span>
-                </a>
-            </div>
-            <div class="col-xs-3 ac">
-                <a href="#">
-                    <img src="images/h_my.png"/>
-                    <span>我的</span>
-                </a>
-
+            <div class="row Cp">
+                <div class="col-xs-6">
+                    <img src="images/h_qilei.png">
+                    <p>德国都芳生态弹力内墙漆</p>
+                    <ul>
+                        <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
+                        <li>
+                            <div class="amount relative">
+                                <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
+                                <input type="number" value="1">
+                                <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6">
+                    <img src="images/h_qilei.png">
+                    <p>德国都芳生态弹力内墙漆</p>
+                    <ul>
+                        <li style="color:#ff0000;padding-right: 17px;">￥1149.00元</li>
+                        <li>
+                            <div class="amount relative">
+                                <a class="minus" href="#" style="border-right-color: transparent;"> - </a>
+                                <input type="number" value="1">
+                                <a class="plus" href="#"  style="border-left-color: transparent;left:40px"> + </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </section>
+    <div id="kong2"></div>
+    <footer class="fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="images/h_HOME.png"/>
+                        <span class="zy">主页</span>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="images/h_classify.png"/>
+                        <span>分类</span>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="images/h_cart.png"/>
+                        <span>购物车</span>
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="images/h_my.png"/>
+                        <span>我的</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-    </div>
-
-
-
-
-
-
-
-
-</footer>
+</div>
 
 </body>
 </html>

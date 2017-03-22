@@ -10,6 +10,15 @@
 #banner2 ul li a img{width:100%;}
 #banner2 ul li a p{font-size:13px;color:#333;padding:10px 0;}
 
+/*轮播图*/
+.mall_main{margin-top: 44px;margin-bottom:20px;}
+.box_swipe { overflow: hidden; position: relative; z-index: 1 }
+.box_swipe ul { -webkit-padding-start: 0px; }
+.box_swipe ul li img { width: 100%; }
+.box_swipe>ol { height: 26px; position: relative; z-index: 10; margin-top: -26px; text-align: center; }
+.box_swipe>ol>li { display: inline-block; margin: 7px 5px; width: 10px; height: 10px; background-color: #FFFFFF; border-radius: 10px; }
+.box_swipe>ol>li.on { background-color: #fa8511; }
+
 #banner3{padding:0 4%;height: 30px;line-height:30px;margin: 5px 0;border-radius:4px;}
 #banner3 .bT1{font-size:13px; ;color:#fd1134;}
 #banner3 .bT2{font-size:12px; ;color:#ff5000;}

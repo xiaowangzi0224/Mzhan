@@ -27,7 +27,7 @@ label,button {cursor: pointer;}
 .ff{background: #fff;}
 .banr2{height: 5px;background: #eeeef3;}
 .banr3{height: 10px;background: #eeeef3;}
-
+.f3{background: #eeeef3;}
 
 /*主页*/
 header{background: #ff5000;width:100%;padding:8px 4%;left:0;top:0;z-index: 100;}
