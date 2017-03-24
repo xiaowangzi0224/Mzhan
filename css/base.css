@@ -35,7 +35,7 @@ header .container{padding: 0;}
 #home{height:28px;width: 100%;line-height: 27px;}
 #home li{float: left;}
 #home .h_city{width: 18.8%;font-size:15px;color:#fff;}
-#home .h_city img{width:17px;height: 10px;padding-left:4px;}
+#home .h_city img{width:17px;padding-left:4px;}
 #home .h_search{width: 69.6%;background:#fff url("../images/h_search.png") no-repeat 10px center;background-size:14px 12px ;padding-left:8%;border-radius:13px;}
 #home .h_search input{border:none;font-size:13px;height:22px;line-height: 22px;outline: none;width:96%;text-indent: 5px;}
 #home .h_massage{width:11.6%;}
@@ -43,7 +43,9 @@ header .container{padding: 0;}
 #kong{height:44px;}
 #kong3{height:70px;}
 #kong4{height:93px;}
-
+.l_img1{display:inline-block;font-size: 15px;color: #fff;}
+.l_img1 img{width:17px;padding-left:4px;}
+textarea{height:100%;width:100%;}
 
 
 /*尾部区 footer*/

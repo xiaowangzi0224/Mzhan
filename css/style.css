@@ -45,6 +45,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 #L_menu{margin-top:10px;padding: 0 4%;}
 #L_menu .container,#L_menu2 .container{padding: 0;}
 #L_menu .row,#L_menu2 .row{border-bottom: 1px solid #ccc;margin-bottom: 15px;height: 45px;line-height:43px;}
+#L_menu .R{ height: 35px;line-height: 35px;margin-bottom: 0;border-bottom: 1px solid #eeeef3;}
 #L_menu .row input,#L_menu2 .row input{border: none;outline: none;}
 #L_menu .row label,#L_menu2 .row label{margin-bottom: 0;font-weight: normal;}
 #L_menu .row .yzm{width: 35%;}
@@ -78,7 +79,6 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .banner_t ul li a{display: inline-block;}
 .banner_t ul li a img{width: 25px;height: 25px;}
 .banner_t ul li span{color:#333;font-size:12px;display: block;height: 27px;line-height: 27px;}
-
 
 .banner_t2 .h_sy{top:48px;right: 70px;}
 .banner_t2 .container{padding: 0;}
@@ -167,6 +167,18 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .m_con a{color:#fff;display: block;background: #ff5000;padding: 0;}
 .m_con a button{border: none;outline:none;width: 100%;height:50px;background: #ff5000;}
 
+
+/*待付款订单详情*/
+#L_menu .bill{border:none;margin-top: 0;height: 46px;margin-bottom: 15px;}
+#L_menu .bill .b1{width: 52%;padding-right: 0;}
+#L_menu .bill .b1 p{line-height: 40px;color:#333;font-size: 12px;}
+#L_menu .bill .b1 p span{color: #ff5000;}
+#L_menu .bill .b2{width: 24%;padding: 0 4px 0;}
+#L_menu .bill .b2 .btn{padding:4px;}
+#L_menu .bill a{color:#fff;font-size: 12px;}
+#L_menu .bill2{padding: 0 10%;border:none;}
+#L_menu .bill2 .btn{color:#fff;}
+
 /*购物车*/
 .logo{padding: 60px 6% 0;}
 .logo p{color:#333;font-size: 16px;height: 63px;line-height: 63px;}
@@ -187,8 +199,11 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .m_pic{height:204px;padding-top:25px; }
 .m_pic .m_pic1{padding: 0 4%;text-align: center;}
 .m_pic .m_pic1 .container .p1{padding:0 15%;height: 30px;line-height: 30px;}
-.m_pic .m_pic1 .p1 a{color:#fff;font-size: 15px;}
-.m_pic .m_pic1 .p1 a button{width: 100%;height: 30px;padding:0;border:none;outline: none;background: #ff5000;}
+
+.m_pic .m_pic1 .p1 .btn{padding:0;line-height:28px;width: 100%;height: 30px;background: #ff5000;color:#fff;font-size: 14px;}
+.fileinput-button {position: relative;display: inline-block;overflow: hidden;}
+.fileinput-button input{position: absolute;right: 0px;top: 0px; opacity: 0;-ms-filter: 'alpha(opacity=0)'; }
+
 .m_pic .m_pic1 .p2{height: 140px;padding:17px 0; }
 .m_pic .m_pic1 .p2 img{margin-bottom: 12px;}
 .m_pic .m_pic1 .p2 .btn{background: #ff5000;padding: 2px 15px;color:#fff;border: none;outline: none;}
@@ -202,6 +217,16 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 #L_menu3{height: 120px;padding:40px 0;}
 #L_menu3 button{background: #ff5000;color:#fff;}
 
+/*拍照下单2*/
+.chase{color:#171616;font-size:12px;height: 32px;line-height:32px;background: #eeeef3;padding: 0 4%;}
+.chase .sp1{color:#ff5000;}
+.chase .sp2{color:#309723;}
+.chase2{height: 77px;border-bottom: 1px solid #ccc;padding: 0 4%;}
+.chase2 ul{height: 77px;width: 100%;line-height: 70px;}
+.chase2 ul li{float: left;width:18.5%;margin-right:1.7%; }
+.chase2 ul li img{width:58px; height:60px;border: 1px solid #ccc;}
+.chase2 ul .last{width:17.5%;margin-right:0;}
+.chase2 ul .last .btn{background: #ff5000; padding: 2px 12px;color:#fff;}
 /*我的订单--筛选*/
 .banner_t7{padding:10px 4%;}
 .banner_t7 .bt .container{padding: 0;}
@@ -226,14 +251,12 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .cou2 .cou4 .col-xs-8{width: 68%;padding: 0 5px;}
 .cou2 .cou5{padding: 27px 0;}
 .cou2 .cou5 li{height: 22px;line-height: 22px;color:#333;font-size: 12px;}
-
 @media only screen and (min-width : 768px) {
     .cou2 .cou4 .col-xs-4{width:20%;}
     .cou2 .cou4 .col-xs-8{width:80%;}
     .cou2 .cou5{padding:17px 0;}
     .cou2 .cou5 li{height: 27px;line-height: 27px;font-size: 16px;}
 }
-
 .Cou{height: 100px;line-height: 100px;text-align: center;}
 .Cou p{color:#333;font-size: 18px;}
 
@@ -242,7 +265,6 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .der ul li{color:#333;font-size: 16px;height: 27px;line-height: 27px;}
 .der ul li a{color:#ccc;}
 .der ul .ac a:hover{color: #ff5000;}
-
 .der2{height: 90px;line-height: 90px;padding: 0 4%;}
 .der2 ul li{float: left;font-size: 14px;color: #333;}
 .der2 ul li span{color: #ff5000;}
@@ -257,8 +279,6 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 @media only screen and (min-width :320px) {
     .der3 .R li{font-size: 14px;}
 }
-
-
 .der3 .R .Rer{width:22%;}
 .der3 .R .Rer2{width:78%;}
 
@@ -279,7 +299,6 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .der3_b .btn-default .pay{margin-right: 5px;}
 .der3_b form{width: 100%;height: 145px;border: 1px solid #ccc;}
 
-
 .der3_b2{height: 30px;line-height: 30px;border-top: 1px solid #eeeef3;}
 .der3_b2 ul{padding: 0 4%;}
 .der3_b2 ul li{font-size: 14px;color:#333;}
@@ -299,15 +318,9 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 
 .der3_b02 .btn-default{padding: 0;line-height: 25px;width: 100%;height: 26px;font-size: 12px;color: #333;}
 .der3_b02 .btn-default:hover{outline:none;color: #fff;background-color: #ff5000;border-color: #ff5000;}
-
-
-
-
-
 .der5{height: 30px;line-height: 30px;}
 .der5 ul{padding: 0 4%;}
 .der5 ul{font-size: 16px;color: #333;}
-
 .der6{height: 153px;padding: 0 4%;}
 .der6 .row{height:27px;line-height:26px;font-size: 16px;color: #333;}
 .der6 .row p{width: 89px;text-align: right;}
@@ -319,9 +332,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 @media only screen and (min-width :320px) {
     .der6 .area ul .ps{width: 25%;}
     .der6 .area ul li{width:75%;}
-
 }
-
 
 /*子账号管理列表*/
 .list_t{height: 40px;line-height: 40px;padding: 0 4%;}
@@ -350,6 +361,9 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .m_acc .m_acc1 ul li{font-size: 12px;color:#333;}
 .m_acc .m_acc1 ul li span{color:#ff5000;margin-right: 3px;}
 
+/*企业待支付订单*/
+.banner_t8{height:100px;padding: 5px 4%;}
+.banner_t8 p{font-size:14px;color:#333;height: 24px;line-height: 24px;}
 /*绿优全装一站购-分站选择*/
 .suv{height: 50px;padding: 10px 4%;background: #eeeef3;}
 .suv .suv1{width:100%;height: 30px;border-radius:12px;}
@@ -373,5 +387,10 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .s_uv1 .s p{height:30px;line-height: 30px;font-weight:600;color: #121111;font-size: 14px;}
 .s_uv1 .btn{outline: none;padding: 0;line-height: 21px;width: 100%;height: 23px;font-size: 12px;  color: #333;}
 
-
+/*增票资质*/
+.add_zp{padding:10px 4%;}
+.add_zp ul{width: 100%;color:#333;font-size: 12px;}
+.add_zp ul li{height:35px;color:#333;font-size: 12px;}
+.add_zp  span{float: left;width:157px;text-align: right;}
+.add_zp  input{float:right;border: 0;width: 55%; padding: 5px;border-bottom: 1px solid #cccccc; line-height: initial;}
 
