@@ -12,10 +12,10 @@
 
 /*轮播图*/
 .mall_main{margin-top: 44px;margin-bottom:20px;}
-.box_swipe { overflow: hidden; position: relative; z-index: 1 }
-.box_swipe ul { -webkit-padding-start: 0px; }
+.box_swipe{ overflow: hidden; position: relative; z-index: 1 }
+.box_swipe ul{ -webkit-padding-start: 0px; }
 .box_swipe ul li img { width: 100%; }
-.box_swipe>ol { height: 26px; position: relative; z-index: 10; margin-top: -26px; text-align: center; }
+.box_swipe>ol{ height: 26px; position: relative; z-index: 10; margin-top: -26px; text-align: center; }
 .box_swipe>ol>li { display: inline-block; margin: 7px 5px; width: 10px; height: 10px; background-color: #FFFFFF; border-radius: 10px; }
 .box_swipe>ol>li.on { background-color: #fa8511; }
 
@@ -40,8 +40,8 @@
 
 /*注册页面*/
 header .l_img{display:inline-block; }
-header .l_img img{width:13px;}
-header h4{color:#fff;font-size:17px;line-height: 27px;}
+header .l_img img{width:11px;}
+header h4{color:#fff;font-size:15px;line-height: 27px;}
 #L_menu{margin-top:10px;padding: 0 4%;}
 #L_menu .container,#L_menu2 .container{padding: 0;}
 #L_menu .row,#L_menu2 .row{border-bottom: 1px solid #ccc;margin-bottom: 15px;height: 45px;line-height:43px;}
@@ -111,7 +111,18 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .banner_t3 .ban3,.banner_t6 .ban3{height: 5px;background: #eeeef3;}
 .banner_t3 ul{height: 40px;line-height: 40px;padding: 0 4%;}
 .banner_t3 ul li{float: left;}
-.banner_t3 ul li span{display:inline-block;font-size: 16px;color:#333;}
+.banner_t3 ul .dengd{color:#ff5000;}
+.banner_t3 ul li span{display:inline-block;font-size: 12px;color:#333;}
+.banner_t3 .Qx{margin-left: 37%;}
+
+@media only screen and (min-width : 768px) {
+    .banner_t3 .Qx{margin-left:41%;}
+}
+.ba_t3{height:81px;}
+.ba_t3 ul{height:81px; padding: 0 4%;}
+.ba_t3 ul li{height: 25px;line-height: 25px;font-size: 12px; color:#333;}
+.ba_t3 ul li span{color:#ff0600;}
+.ba_t3 input{border: none;outline: none;}
 
 .banner_s{z-index:100;width:100%;height:93px;}
 .banner_s .banner_u{padding: 0 4%;}
@@ -137,9 +148,11 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .banner_t4 .fir4 li img{height: 200px;}
 .banner_t4 .fir4 .fir04{margin-right: 20px;}
 .banner_t4 .fir4 .gd{height:75px;}
+.banner_t4 .fir4 .gd2{height:65px;}
 .banner_t4 .fir4 p{font-size: 14px;color:#999;line-height: 33px;}
 .banner_t4 .fir4 .p1{color:#ff5000;}
 .banner_t4 .fir4 .p2{font-size: 12px;}
+.banner_t4 .fir4 .gd2 p{line-height: 20px;}
 /*我的订单----代确认---待客服审核*/
 .banner_t5{padding:10px 4%;}
 .banner_t5 .ban5{text-align:center;height: 250px;line-height:250px;width: 100%;border: 1px solid #ccc;}
@@ -162,7 +175,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .top_older03 .red{color:#ff5000;}
 .top_older03 .red i{font-size: 12px;}
 .m_con{height: 50px;line-height: 50px;}
-.m_con p{font-size: 16px;color: #333;}
+.m_con p{font-size: 12px;color: #333;}
 .m_con p .red{color:#ff5000;}
 .m_con a{color:#fff;display: block;background: #ff5000;padding: 0;}
 .m_con a button{border: none;outline:none;width: 100%;height:50px;background: #ff5000;}
@@ -206,7 +219,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 
 .m_pic .m_pic1 .p2{height: 140px;padding:17px 0; }
 .m_pic .m_pic1 .p2 img{margin-bottom: 12px;}
-.m_pic .m_pic1 .p2 .btn{background: #ff5000;padding: 2px 15px;color:#fff;border: none;outline: none;}
+.m_pic .m_pic1 .p2 .btn{background:#ff5000;padding: 2px 15px;color:#fff;border: none;outline: none;}
 
 .m_pic2{height: 153px;border-bottom: 1px solid #ccc;padding:14px 14%;}
 .m_pic2 p{height: 20px;line-height: 20px;color:#333;font-size: 12px;}
@@ -262,7 +275,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 
 /*订单确认--总*/
 .der{height: 89px;padding: 0 4%;}
-.der ul li{color:#333;font-size: 16px;height: 27px;line-height: 27px;}
+.der ul li{color:#333;font-size:12px;height: 27px;line-height: 27px;}
 .der ul li a{color:#ccc;}
 .der ul .ac a:hover{color: #ff5000;}
 .der2{height: 90px;line-height: 90px;padding: 0 4%;}
@@ -272,8 +285,8 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .der3{height: 77px;}
 .der3_t{height: 35px;line-height: 35px;border-bottom: 1px solid #eeeef3;}
 .der3_t ul{padding: 0 4%;}
-.der3_t ul li{font-size: 16px;color:#333;}
-
+.der3_t ul li{font-size: 12px;color:#333;}
+.der3_t .mt .btn{margin-left:15px;}
 .der3 .R{padding: 0 4%;}
 .der3 .R li{float: left;font-size: 16px;color:#333;}
 @media only screen and (min-width :320px) {
@@ -295,7 +308,7 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .der3_b .container .row .col-xs-3{padding: 0;width: 22%;margin-right:4%; }
 .der3_b .container .row .col-xs-4{padding:0;width: 32%;}
 .der3_b .btn-default{padding: 0;line-height: 21px;width: 100%;height: 23px;font-size: 12px;color: #333;}
-.der3_b .btn-default:hover,.der3_b3 .btn-default:hover,.s_uv1 .btn:hover{outline:none;color: #fff;background-color: #ff5000;border-color: #ff5000;}
+.der3_b .btn-default:hover,.der3_b3 .btn-default:hover,.s_uv1 .btn:hover,.mt .btn-default:hover{outline:none;color: #fff;background-color: #ff5000;border-color: #ff5000;}
 .der3_b .btn-default .pay{margin-right: 5px;}
 .der3_b form{width: 100%;height: 145px;border: 1px solid #ccc;}
 
@@ -320,14 +333,16 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .der3_b02 .btn-default:hover{outline:none;color: #fff;background-color: #ff5000;border-color: #ff5000;}
 .der5{height: 30px;line-height: 30px;}
 .der5 ul{padding: 0 4%;}
-.der5 ul{font-size: 16px;color: #333;}
+.der5 ul{font-size: 12px;color: #333;}
 .der6{height: 153px;padding: 0 4%;}
-.der6 .row{height:27px;line-height:26px;font-size: 16px;color: #333;}
-.der6 .row p{width: 89px;text-align: right;}
+
+.der6 .row{height:27px;line-height:26px;font-size: 12px;color: #333;}
+.der6 .row div{padding: 0;}
+.der6 .row p{width:79px;text-align: right;}
 .der6 .row span{color:#ff5000;}
 .der6 .row span i{font-size: 12px;}
 .der6 .area{height:44px;border-top: 1px solid #eeeef3;}
-.der6 .area ul li{width:78%;font-size:16px;color:#333;float: left;line-height: 22px;}
+.der6 .area ul li{width:78%;font-size:12px;color:#333;float: left;line-height: 22px;}
 .der6 .area ul .ps{height: 44px;width: 22%;text-align: center;}
 @media only screen and (min-width :320px) {
     .der6 .area ul .ps{width: 25%;}
@@ -387,10 +402,58 @@ header h4{color:#fff;font-size:17px;line-height: 27px;}
 .s_uv1 .s p{height:30px;line-height: 30px;font-weight:600;color: #121111;font-size: 14px;}
 .s_uv1 .btn{outline: none;padding: 0;line-height: 21px;width: 100%;height: 23px;font-size: 12px;  color: #333;}
 
-/*增票资质*/
-.add_zp{padding:10px 4%;}
-.add_zp ul{width: 100%;color:#333;font-size: 12px;}
-.add_zp ul li{height:35px;color:#333;font-size: 12px;}
-.add_zp  span{float: left;width:157px;text-align: right;}
-.add_zp  input{float:right;border: 0;width: 55%; padding: 5px;border-bottom: 1px solid #cccccc; line-height: initial;}
+/*全部订单*/
+.all{height: 40px;background: #eeeef3;padding: 0 4%;}
+.all ul{width: 100%;height: 40px;line-height: 40px;}
+.all ul li{float: left;font-size: 13px;color:#333;}
+.all ul .ls{float: right;color:#fd0101;}
+.all ul .ls2{float: right;color:#329954;}
+.all_sp{height: 140px;}
+.all_sp .row{height:69px; }
+.all_sp .row .r1{padding:0 4%;line-height: 69px;}
+.all_sp .row .r1 .col-xs-2{padding:0 3px; }
+.all_sp .row .r1 img{width:100%;}
+.all_sp .row .r1 .img{width:50%;}
+.all_sp .s{border-bottom: 1px solid #ccc;}
+.all_sp .row .r2{padding:0 4%;line-height: 69px;}
+.all_sp .row .r2 ul{height: 69px;padding:2px 0;font-size:12px;color:#333;}
+.all_sp .row .r2 .R{padding:8px 0;}
+.all_sp .row .r2 ul li{line-height:21px;}
+.all_sp .row .r2 ul li span{color:#fd0101;}
+.all_sp .row .r2 .btn{padding: 2px 12px;background: #ff5000;color:#fff; }
+.all_sp .row .r2 .btn2{padding: 2px 6px;}
+.all_sp .row .r2 .btn3{padding: 2px;}
+.all_sp .row .r2 .r4{padding: 0;}
 
+@media only screen and (min-width : 768px) {
+    .all_sp .row .r1 img{width: 50%;}
+    .all_sp .row .r1 .img{width: 25%;}
+}
+
+
+/*增票资质*/
+.add_zp,.add_zp1{padding:10px 4%;}
+.add_zp ul{width: 100%;color:#333;font-size: 12px;}
+.x_yb{padding: 0 10%;margin-top: 15px;}
+.x_yb .btn{background: #ff5000;color:#fff;}
+.add_zp ul li,.add_zp ul li .fr{height:35px;color:#333;font-size: 12px;margin-bottom: 6px;}
+.add_zp  span{float: left;width:89px;text-align: right;line-height: 25px;}
+.add_zp  input,.add_zp .ssq{outline:none;float:left;border: 0;width: 69%;; padding: 5px;border-bottom: 1px solid #cccccc;height: 25px;line-height: 25px;}
+
+@media only screen and (min-width : 768px){
+    .add_zp  input,.add_zp .ssq{width:87%;}
+}
+.add_zp ul .zhiz{height:200px}
+.add_zp .File{border-bottom:none;width: 70px;height: 70px;}
+.add_zp .z_1{width:70px;height:70px;background: url(../images/h_xiangj3.png) no-repeat;background-size: 100% 100%;float: left;margin-right:6px;}
+.add_zp .ssq{padding: 0;}
+.add_zp1 ul{width: 100%;color:#333;font-size: 12px;}
+.add_zp1 ul li{height:36px;}
+.add_zp1 ul li span{float: left;line-height: 30px;width: 68%;}
+.add_zp1 ul li .gs{width:89px;text-align: right;margin-right: 3px;}
+.add_zp1 ul li .gs2{line-height:18px;}
+.add_zp1 ul .Y{height: 188px;}
+@media only screen and (min-width : 768px){
+    .add_zp1 ul li span{width:86%;}
+    .add_zp1 ul li .gs2{line-height: 30px;}
+}

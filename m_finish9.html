@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>订单确认</title>
+    <title>订单确认--修改</title>
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -150,26 +150,27 @@
 <section class="der4">
     <div class="der3_t">
         <ul>
-            <li>配送时间</li>
+            <li class="fl">配送时间</li>
+            <li class="fl mt"><button type="button" class="btn btn-default">10月11日（明天）</button></li>
         </ul>
     </div>
 
     <div class="der3_b3">
         <ul class="clearfix">
             <li>
-                <button type="button" class="btn btn-default">10月11日（明天）</button>
+                <button type="button" class="btn btn-default">12点之前</button>
             </li>
             <li>
-                <a class="xg" href="#">点击修改</a>
+                <button type="button" class="btn btn-default">12点-15点</button>
             </li>
         </ul>
 
         <ul class="clearfix">
             <li>
-                <button type="button" class="btn btn-default">8:00~12:00</button>
+                <button type="button" class="btn btn-default">15点-18点</button>
             </li>
             <li>
-                <button type="button" class="btn btn-default">12:00~20:00</button>
+                <button type="button" class="btn btn-default"> 18点-21点</button>
             </li>
         </ul>
 
@@ -223,9 +224,9 @@
     </div>
 
     <div class="der3_b" style="height: 190px;padding:21px 4%;">
-            <form>
-                <textarea rows="3" cols="20" placeholder="可填写您的其他要求（50字以内）。"></textarea>
-            </form>
+        <form>
+            <textarea rows="3" cols="20" placeholder="可填写您的其他要求（50字以内）。"></textarea>
+        </form>
     </div>
 </section>
 <div class="banr2"></div>
@@ -241,13 +242,23 @@
 </section>
 <div class="banr2"></div>
 
-<!--优惠劵-->
+<!--现金红包-->
 <section class="der5">
     <ul class="clearfix">
-        <li class="fl">优惠劵</li>
+        <li class="fl">现金红包</li>
         <li class="fr">
-       <span style="color:#ff5000;"> 0 </span>张可用
-            <a href="m_coupon2.html"><img src="images/L_yjt.png" width="11"> </a>
+            <a href="#"><img src="images/L_yjt.png" width="11"> </a>
+        </li>
+    </ul>
+</section>
+<div class="banr2"></div>
+
+<!--所属项目-->
+<section class="der5">
+    <ul class="clearfix">
+        <li class="fl">所属项目</li>
+        <li class="fr">
+            <a href="#"><img src="images/L_yjt.png" width="11"> </a>
         </li>
     </ul>
 </section>
@@ -263,19 +274,31 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-xs-5"><p>运费</p></div>
+            <div class="col-xs-7 ar">
+                <span>￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="row">
             <div class="col-xs-5"><p>上楼费:</p></div>
             <div class="col-xs-7 ar">
                 <span>￥300.<i>00</i></span>元
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-5"><p>配送费:</p></div>
+            <div class="col-xs-5"><p>发票税额:</p></div>
             <div class="col-xs-7 ar">
                 <span>￥300.<i>00</i></span>元
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-5"><p>优惠金额:</p></div>
+            <div class="col-xs-5"><p>红包优惠:</p></div>
+            <div class="col-xs-7 ar">
+                <span>￥300.<i>00</i></span>元
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5"><p>提前下单优惠:</p></div>
             <div class="col-xs-7 ar">
                 <span>-￥300.<i>00</i></span>元
             </div>
@@ -296,7 +319,7 @@
 
 
 <!--底部-->
-<div id="kong5"></div>
+<div id="kong5" style="width: 100%;overflow: hidden;"></div>
 <footer class="fixed m_con">
     <div class="container">
         <div class="row">
@@ -320,8 +343,8 @@
     var app = angular.module('myApp', []);
     app.controller('myCtrl', function($scope, $http) {
         $scope.lout = function () {
-       $scope.loutDiv = true;
-            
+            $scope.loutDiv = true;
+
         }
 
     });
